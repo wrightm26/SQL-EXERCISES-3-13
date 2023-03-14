@@ -7,10 +7,10 @@ WHERE last_name LIKE 'Wahlberg';
 
 --QUESTION 2
 --How many payments were made between $3.99 and $5.99?
-SELECT*
+SELECT COUNT(amount)
 FROM payment
 WHERE amount BETWEEN 3.99 AND 5.99;
---ANSWER - see table
+--ANSWER - 5,607
 
 --QUESTION 3
 --What films have exactly 7 copies? (search in inventory)
